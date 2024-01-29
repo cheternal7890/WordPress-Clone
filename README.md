@@ -4,6 +4,9 @@ This repository contains the code for a simple webpage layout that resembles a W
 
 You can view a live demo of the WordPress Clone [here](https://whale-app-lbko6.ondigitalocean.app/).
 
+<img width="961" alt="WordPress Image" src="https://github.com/cheternal7890/WordPress-Clone/assets/157067093/c3086742-c09d-464f-ac43-319df9dffd42">
+
+
 ## Table of Contents
 
 - [Description](#description)
