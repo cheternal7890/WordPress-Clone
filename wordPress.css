@@ -34,7 +34,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 100px;
-  height: 25vh;
+  margin-top: 100px;
+  height: 20vh;
 }
 
 .journalingLeftText {
@@ -58,7 +59,7 @@ body {
   display: flex;
   gap: 75px;
   list-style: none;
-  height: 55vh;
+  height: 70vh;
 }
 
 .articleHeader {
