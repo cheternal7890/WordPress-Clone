@@ -1,92 +1,101 @@
 body {
+  margin: 0 auto;
+  max-width: 1600px;
   padding-left: 16%;
   padding-right: 16%;
   background-color: beige;
 }
 
-.wordPressHeader {
-  margin-top: 300px;
-  height: 35vh;
-  font-size: 30px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+@media only screen and (min-width: 240px) {
+  .wordPressHeader {
+    margin-top: 300px;
+    height: 35vh;
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 
-  h1 {
-    margin-top: -30px;
+    h1 {
+      margin-top: -30px;
+    }
+
+    h6 {
+      margin-top: -15px;
+    }
   }
 
-  h6 {
-    margin-top: -15px;
-  }
-}
+  .featuredArticle {
+    height: 100vh;
 
-.featuredArticle {
-  height: 100vh;
-
-  img {
-    border-radius: 20px;
+    img {
+      border-radius: 20px;
+    }
   }
 }
 
 /* Journaling Prompts */
 
-.journalingPrompts {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 100px;
-  margin-top: 100px;
-  height: 20vh;
-}
+@media only screen and (min-width: 240px) {
+  .journalingPrompts {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 150px;
+    margin-top: 100px;
+    height: 20vh;
+  }
 
-.journalingLeftText {
-  font-size: 20px;
-  color: black;
-  text-decoration: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.journalingLeftText :hover {
-  text-decoration: underline;
-}
+  .journalingLeftText {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .journalingLeftText :hover {
+    text-decoration: underline;
+  }
 
-.promptRightText {
-  text-align: justify;
+  .promptRightText {
+    text-align: justify;
+  }
 }
-
 /* Latest Articles */
 
-.latestArticles {
-  display: flex;
-  gap: 75px;
-  list-style: none;
-  height: 70vh;
-}
+@media only screen and (min-width: 240px) {
+  .latestArticles {
+    display: flex;
+    gap: 250px;
+    list-style: none;
+    height: 70vh;
+    text-wrap: wrap;
+  }
 
-.articleHeader {
-  text-decoration: none;
-  color: black;
-  justify-content: space-evenly;
-}
+  .articleHeader {
+    text-decoration: none;
+    color: black;
+    justify-content: space-evenly;
+  }
 
-.articleHeader :hover {
-  text-decoration: underline;
-}
+  .articleHeader :hover {
+    text-decoration: underline;
+  }
 
-.articleHeaderDescription {
-  justify-content: justify;
+  .articleHeaderDescription {
+    justify-content: justify;
+  }
 }
-
 /* Footer */
 
-.footer {
-  display: flex;
-  border-radius: 20px;
-  height: 10vh;
-  align-items: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  justify-content: space-evenly;
-  font-size: 20px;
-  color: white;
-  background-color: rgb(31, 46, 46);
+@media only screen and (min-width: 240px) {
+  .footer {
+    display: flex;
+    border-radius: 20px;
+    height: 10vh;
+    align-items: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(31, 46, 46);
+  }
 }
